@@ -1,0 +1,19 @@
+{
+  "name": "auto-hr-call",
+  "version": "1.0.0",
+  "description": "automatic HR call for screening",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon server.js"
+  },
+  "author": "Himanshu Pandey",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "openai": "^4.87.3",
+    "twilio": "^5.5.0"
+  }
+}

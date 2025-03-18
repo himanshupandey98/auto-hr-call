@@ -15,7 +15,7 @@ app.post('/start-call', async (req, res) => {
 
     try {
         const call = await twilioClient.calls.create({
-            url: 'http://localhost:3000/voice-response',
+            url: 'https://auto-hr-call.onrender.com/voice-response',
             to: candidateNumber,
             from: process.env.TWILIO_PHONE_NUMBER
         });
